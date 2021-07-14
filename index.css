@@ -1,0 +1,23 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color: black;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+h1 {
+  margin: 100px;
+}
+
+#ol {
+  color: royalblue;
+}
+
+.first_p {
+  color: seagreen;
+}
