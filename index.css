@@ -1,23 +1,43 @@
-@media screen and (max-width: 700px) {
-  body {
-    background-color: black;
-  }
-}
-
-body {
+form {
   display: flex;
-  justify-content: space-between;
-  align-items: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  margin: 100px;
+button {
+  font-size: 50px;
 }
 
-#ol {
-  color: royalblue;
+button:active {
+  background-color: black;
+  color: blue;
 }
 
-.first_p {
-  color: seagreen;
+a:visited {
+  color: red;
+}
+
+input {
+  color: black;
+}
+
+input:disabled {
+  color: coral;
+  background-color: red;
+}
+
+input:focus {
+  background-color: black;
+}
+
+span {
+  margin-top: 20px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: rosybrown;
+}
+
+span:hover {
+  background-color: black;
 }
